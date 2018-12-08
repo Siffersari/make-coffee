@@ -7,9 +7,14 @@
     6. Refactor
 """
 
-def make_coffee():
+def make_coffee(milk='', sugar=''):
     """ Makes coffee """
     ingredients = ['coffee', 'hot water']
+    if milk:
+        ingredients.append(milk)
+    if sugar:
+        ingredients.append(sugar)
+    
     print('Started making coffee...')
     print('Getting cup')
     print('Adding {}'.format(', '.join(ingredients)))
@@ -35,5 +40,5 @@ serve_coffee(gibbs_coffee, 'Gibbs')
 
 
 # Make Janet's coffee
-janet_coffee = make_coffee()
+janet_coffee = make_coffee('milk', 'sugar')
 serve_coffee(janet_coffee, 'Janet')
