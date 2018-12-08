@@ -12,7 +12,28 @@ ingredients = ['coffee', 'hot water']
 print('Started making coffee...')
 print('Getting cup')
 print('Adding {}'.format(', '.join(ingredients)))
-print('Stir the mix')
+print('Stir the mix for 5 seconds')
 print('Finished making coffee...')
 my_coffee = 'Tasty coffee'
 print("---Here's your {} {}, Enjoy!! ---\n".format(my_coffee, 'Evans'))
+
+# Make Gibbs' coffee
+ingredients = ['coffee', 'hot water']
+print('Started making coffee...')
+print('Getting cup')
+print('Adding {}'.format(', '.join(ingredients)))
+print('Stir the mix for 5 seconds')
+print('Finished making coffee...')
+my_coffee = 'Tasty coffee'
+print("---Here's your {} {}, Enjoy!! ---\n".format(my_coffee, 'Gibbs'))
+
+
+# Make Janet's coffee
+ingredients = ['coffee', 'hot water']
+print('Started making coffee...')
+print('Getting cup')
+print('Adding {}'.format(', '.join(ingredients)))
+print('Stir the mix for 5 seconds')
+print('Finished making coffee...')
+my_coffee = 'Tasty coffee'
+print("---Here's your {} {}, Enjoy!! ---\n".format(my_coffee, 'Janet'))
