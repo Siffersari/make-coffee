@@ -3,7 +3,7 @@
     2. Change how the mix is stirred
     3. A better way to make coffee with less repitition
     4. Make you coffee with milk and sugar (add sugar, add milk)
-    5. Make Gibbs coffee with milk, sugara and something else (add sugar, add milk, ...)
+    5. Make Gibbs coffee with milk, sugar and something else (add sugar, add milk, ...)
     6. Refactor
 """
 
