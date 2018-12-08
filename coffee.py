@@ -7,33 +7,33 @@
     6. Refactor
 """
 
+def make_coffee():
+    """ Makes coffee """
+    ingredients = ['coffee', 'hot water']
+    print('Started making coffee...')
+    print('Getting cup')
+    print('Adding {}'.format(', '.join(ingredients)))
+    print('Stir the mix for 5 seconds')
+    print('Finished making coffee...')
+    coffee = 'Tasty coffee'
+    return coffee
+    
+
+
+def serve_coffee(coffee, person):
+    """ Serves coffee to a specified person """
+    print("---Here's your {} {}, Enjoy!! ---\n".format(coffee, person))
+
 # Make my coffee
-ingredients = ['coffee', 'hot water']
-print('Started making coffee...')
-print('Getting cup')
-print('Adding {}'.format(', '.join(ingredients)))
-print('Stir the mix for 5 seconds')
-print('Finished making coffee...')
-my_coffee = 'Tasty coffee'
-print("---Here's your {} {}, Enjoy!! ---\n".format(my_coffee, 'Evans'))
+my_coffee = make_coffee()
+serve_coffee(my_coffee, 'Evans')
+
 
 # Make Gibbs' coffee
-ingredients = ['coffee', 'hot water']
-print('Started making coffee...')
-print('Getting cup')
-print('Adding {}'.format(', '.join(ingredients)))
-print('Stir the mix for 5 seconds')
-print('Finished making coffee...')
-my_coffee = 'Tasty coffee'
-print("---Here's your {} {}, Enjoy!! ---\n".format(my_coffee, 'Gibbs'))
+gibbs_coffee = make_coffee()
+serve_coffee(gibbs_coffee, 'Gibbs')
 
 
 # Make Janet's coffee
-ingredients = ['coffee', 'hot water']
-print('Started making coffee...')
-print('Getting cup')
-print('Adding {}'.format(', '.join(ingredients)))
-print('Stir the mix for 5 seconds')
-print('Finished making coffee...')
-my_coffee = 'Tasty coffee'
-print("---Here's your {} {}, Enjoy!! ---\n".format(my_coffee, 'Janet'))
+janet_coffee = make_coffee()
+serve_coffee(janet_coffee, 'Janet')
